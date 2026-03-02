@@ -1,0 +1,765 @@
+body{
+    background-color: black;
+}
+body{
+     overflow-x: hidden;
+}
+header a:hover{
+    background-color: slateblue;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+    font-size: 15px;
+    color: white;
+    
+}
+header{
+    background: linear-gradient(135deg, #000000 0%, #686666 100%);
+    position: sticky;
+    top: 0;
+}
+#ft-ariell img{
+    width: 550px;
+    height: 550px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative;
+    top: -59px;
+}
+.textos-cabecalho span{
+    color: #8b5cf6;
+} 
+#area h1{
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+}
+#area h1,h5,p{
+    position: relative;
+    top: 10px;
+}
+#area{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;  
+}
+section #menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#menu h5{
+    color: white;
+     font-family: 'Poppins', sans-serif;
+     font-size: 20px;
+}
+#menu h1{
+    font-size: 60px;
+    color: white;
+     font-family: 'Poppins', sans-serif;
+}
+#menu p{
+font-family: 'Inter', sans-serif;
+font-weight: 400;
+font-size: 17px;
+color: #a1a1aa; 
+margin-bottom: 20px;
+}
+#menu button{
+ display: block;
+ background: linear-gradient(135deg, slateblue, mediumslateblue);
+ height: 50px;
+ width: 140px;
+ border: none;
+ border-radius: 8px;
+ color: white;
+ margin: 20px auto;
+}
+#cursos{
+background: linear-gradient(135deg, #4132a1 0%, #7e71e7 100%);
+}
+#cursos h1{
+ color: rgb(255, 255, 255);
+ margin-top: 90px;
+ font-family: 'Montserrat', sans-serif;
+ font-size: 3rem;
+ text-transform: uppercase;
+ letter-spacing: -2px;
+ text-align: center;
+}
+#cursos p{
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #a1a1aa; 
+}
+#cursos h2{
+    color: rgb(255, 255, 255);
+    margin-top: 70px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+}
+section{
+    padding: 80px 20px; 
+    min-height: 100vh;
+    color: white;  
+
+}
+#java, #html{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    color: white;
+}
+.card-java:hover,
+.card-java1:hover,
+.card-java2:hover,
+.card-html:hover,
+.card-css:hover,
+.card-js:hover{
+    transform: translateY(-10px);
+    border: 1px solid var(--primary);
+    box-shadow: 0 15px 40px rgb(255, 255, 255);
+}
+.card-java,
+.card-java1,
+.card-java2,
+.card-html,
+.card-css,
+.card-js{
+    background: linear-gradient(135deg, #5e5e5e 0%, #070707 100%);
+    padding: 30px;
+    border-radius: 20px;
+    width: 280px;
+    transition: 0.3s;
+    border: 1px solid rgba(255,255,255,0.05);
+}
+.btn-certificado{
+display: block;
+text-align: center;
+}
+.card-java img,
+.card-java1 img,
+.card-java2 img,
+.card-html img,
+.card-css img,
+.card-js img{
+    width: 120px;
+    display: block;
+    margin: 0 auto 15px;
+}
+#diversos{
+    display: flex;
+    gap: 20px;
+}
+ .letreiro{
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 20px 0;
+}
+.letreiro h1{
+font-family: 'Bebas Neue', sans-serif;
+letter-spacing: -0.05em;
+text-transform: uppercase;
+font-size: 3.0rem;
+text-align: center;
+text-transform: uppercase;
+}
+#trabalho {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    background: #16161d;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.4);
+}
+#trabalho h1{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+}
+#projetos p{
+text-align: left;
+font-family: 'Inter', sans-serif;
+font-weight: 400;
+font-size: 20px;
+color: #a1a1aa; 
+margin-bottom: 20px;
+}
+.paragrafo p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #a1a1aa; 
+    margin-bottom: 20px;
+    text-align: center;
+}
+.midia{
+    display: flex;
+    flex-direction: column;
+}
+.midia button{
+ display: block;
+ background: linear-gradient(135deg, slateblue, mediumslateblue);
+ height: 50px;
+ width: 140px;
+ border: none;
+ border-radius: 8px;
+ color: white;
+ margin: 20px auto;
+}
+.midia img{
+    width: 650px;
+    border-radius: 8%;
+}
+.texto-facul ul {
+    margin-top: 15px;
+    padding-left: 20px;
+}
+.texto-facul li {
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+.texto-facul h3::before {
+    content: "→";
+    color: slateblue;
+    margin-right: 10px;
+}
+#contato h1 {
+ font-size: 2.5rem;
+ margin-bottom: 10px;
+ margin-top: 90px;
+ font-family: 'Montserrat', sans-serif;
+ font-size: 3rem;
+ text-transform: uppercase;
+ letter-spacing: -2px;
+}
+#contato p{
+    line-height: 1.6;
+    max-width: 600px;
+    padding: 50px;
+    font-family: 'Inter', sans-serif;
+    color: #a1a1aa;
+    font-size: 1.2rem;
+}
+ #contato h3{
+  text-align: center;
+  padding: 5px;
+ }
+ form{
+    width: 350px;
+    display: block;
+    margin:0 auto;
+ }
+ #contato{
+ background: linear-gradient(135deg, #4132a1 0%, #7e71e7 100%);
+ font-family: 'Inter', sans-serif;
+ display: flex;
+ justify-content: space-around;
+ align-items: first baseline;
+ }
+ form button{
+ display: block;
+ background: linear-gradient(135deg, slateblue, mediumslateblue);
+ height: 50px;
+ width: 140px;
+ border: none;
+ border-radius: 8px;
+ color: white;
+ margin: 20px auto;
+ }
+form input, textarea{
+    display: block;
+    width: 100%;
+    padding: 12px 15px;
+}
+form label{
+    color: white;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+}
+textarea{
+ padding: 12px 15px;
+}
+#formulario h3{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.5rem;
+}
+.central{
+    text-align: left;
+    text-align: center;
+}
+#formulario{
+    flex: 1;
+    max-width: 500px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px); 
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+#foto-ariell img{
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+#foto-ariell{
+ margin-bottom: 10px;
+}
+#fim h1{
+ margin-top: 90px;
+ font-family: 'Montserrat', sans-serif;
+ font-size: 3rem;
+ text-transform: uppercase;
+ letter-spacing: -2px;
+}
+#fim p{
+    padding: 50px;
+    font-family: 'Inter', sans-serif;
+    color: #a1a1aa;
+    font-size: 1.2rem;
+}
+#fim h3{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+#fim{
+    text-align: center;
+}
+#fim span {
+    color: #8b5cf6;
+    }
+#navegador a{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;  
+    padding: 20px;
+    text-decoration: none; 
+}
+#navegador span{
+    color: white;
+}
+#navegador{
+    display: flex;
+    justify-content: center;
+}
+#navegador img{
+    width: 50px;
+}
+@media (max-width: 768px) {
+body{
+    overflow: scroll;
+    overflow-x: hidden;
+}
+header{
+    background: linear-gradient(135deg, #000000 0%, #686666 100%);
+    position: sticky;
+    top: 0;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+    font-size: 15px;
+    color: white;
+}
+#ft-ariell img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: static;
+}
+#area h1{
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+}
+#menu h5{
+     color: white;
+     font-family: 'Poppins', sans-serif;
+     font-size: 10px;
+}
+#menu h1{
+    font-size: 20px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+#menu p{
+font-family: 'Inter', sans-serif;
+font-weight: 400;
+font-size: 12px;
+color: #a1a1aa; 
+margin-bottom: 20px;
+}
+#menu button{
+ display: block;
+ background-color:slateblue;
+ height: 50px;
+ width: 120px;
+ border-radius: 10%;
+ color: white;
+ margin: 20px auto;
+}
+.textos-cabecalho{
+    max-width: 100%;
+}
+#area{
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 20px;
+}
+
+#area p, h1, h5{
+    margin-left: 20px;
+}
+#area p{
+    flex-basis: 100%;
+    position: relative;
+
+}
+#area button{
+    display: block;
+
+    margin: 20px auto;
+}
+#cursos{
+background: linear-gradient(135deg, #4132a1 0%, #7e71e7 100%);
+}
+#cursos h1{
+ color: rgb(255, 255, 255);
+ margin-top: 90px;
+ font-family: 'Montserrat', sans-serif;
+ font-size: 2rem;
+ text-transform: uppercase;
+ letter-spacing: -2px;
+ text-align: center;
+}
+#cursos p{
+    font-size: 17px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #a1a1aa; 
+    text-align: center;
+}
+#cursos h2{
+    color: rgb(255, 255, 255);
+    margin-top: 70px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+section{
+    padding: 80px 20px; 
+    min-height: 100vh;
+    color: white;  
+
+}
+#java ul, #html ul {
+    list-style-position: inside;
+    padding: 0;
+    margin: 15px 0;
+}
+.card-java:hover,
+.card-java1:hover,
+.card-java2:hover,
+.card-html:hover,
+.card-css:hover,
+.card-js:hover{
+    transform: translateY(-10px);
+    border: 1px solid var(--primary);
+    box-shadow: 0 15px 40px rgb(255, 255, 255);
+}
+.card-java,
+.card-java1,
+.card-java2,
+.card-html,
+.card-css,
+.card-js{
+    background: linear-gradient(135deg, #5e5e5e 0%, #070707 100%);
+    padding: 30px;
+    border-radius: 20px;
+    width: 280px;
+    transition: 0.3s;
+    border: 1px solid rgba(255,255,255,0.05);
+}
+.btn-certificado{
+display: block;
+text-align: center;
+}
+.card-java img,
+.card-java1 img,
+.card-java2 img,
+.card-html img,
+.card-css img,
+.card-js img{
+    width: 120px;
+    display: block;
+    margin: 0 auto 15px;
+}
+#diversos{
+    display: flex;
+    gap: 20px;
+}
+ .letreiro{
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 20px 0;
+}
+.letreiro h1{
+font-family: 'Bebas Neue', sans-serif;
+letter-spacing: -0.05em;
+text-transform: uppercase;
+font-size: 2.0rem;
+text-align: center;
+text-transform: uppercase;
+}
+#trabalho {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    padding: 50px;
+    align-items: flex-start;
+    background: #16161d;
+    border-radius: 20px;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.4);
+}
+#trabalho h1{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+}
+#java li, #html li {
+    display: list-item;    
+    text-align: left;       
+    font-size: 0.9rem;
+    margin-bottom: 8px;      
+    color: #e0e0e0;          
+}
+#java li, #html li{
+    display: flex;
+    text-align: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    color: white;
+}
+.texto-facul h1, 
+.texto-facul h3, 
+.texto-facul p, 
+.texto-facul li {
+   position: static;
+   right: 0;
+   margin-bottom: 20px;
+   position: relative;
+   right: 45px;
+}
+.texto-facul{
+ min-width: 300px;
+}
+#projetos p{
+font-family: 'Inter', sans-serif;
+font-weight: 400;
+font-size: 18px;
+color: #a1a1aa; 
+margin-bottom: 20px;
+}
+.paragrafo p {
+   font-size: 17px;
+   font-family: 'Inter', sans-serif;
+   font-weight: 400;
+   color: #a1a1aa;
+   padding: 0 20px;
+   text-align: center;
+   max-width: 320px; 
+   margin: 0 auto 20px auto; 
+   line-height: 1.6; 
+}
+.midia{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 25px;
+}
+.midia button{
+ display: block;
+ background-color:slateblue;
+ height: 50px;
+ width: 120px;
+ border-radius: 10%;
+ color: white;
+ margin: 20px auto;
+}
+.midia img{
+    width: 250px;
+    border-radius: 8%;
+    margin-top: -20px;
+}
+.texto-facul ul {
+    margin-top: 15px;
+    padding-left: 20px;
+}
+.texto-facul li {
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+.texto-facul h3::before {
+    content: "→";
+    color: slateblue;
+    margin-right: 10px;
+}
+#contato h1 {
+ font-size: 2rem;
+ margin-bottom: 10px;
+ margin-top: 90px;
+ font-family: 'Montserrat', sans-serif;
+ font-size: 3rem;
+ text-transform: uppercase;
+ letter-spacing: -2px;
+}
+#contato p{
+    line-height: 1.6;
+    max-width: 600px;
+    padding: 50px;
+    font-family: 'Inter', sans-serif;
+    color: #a1a1aa;
+    font-size: 17px;
+}
+ #contato h3{
+  text-align: center;
+  padding: 5px;
+ }
+ form{
+    width: 150px;
+    display: block;
+    margin:0 auto;
+ }
+ #contato{
+ background: linear-gradient(135deg, #4132a1 0%, #7e71e7 100%);
+ font-family: 'Inter', sans-serif;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ align-items: center;
+ }
+ form button{
+ display: block;
+ background-color:slateblue;
+ height: 50px;
+ width: 120px;
+ border-radius: 10%;
+ color: white;
+ margin: 20px auto;
+ }
+form input, textarea{
+    display: block;
+    width: 100%;
+    padding: 12px 15px;
+}
+form label{
+    color: white;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+}
+textarea{
+ padding: 12px 15px;
+}
+#formulario h3{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.5rem;
+}
+.central{
+    text-align: left;
+    text-align: center;
+}
+#formulario{
+    flex: 1;
+    max-width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px); 
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+#foto-ariell img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+#foto-ariell{
+ margin-bottom: 10px;
+}
+#fim h1{
+ margin-top: 90px;
+ font-family: 'Montserrat', sans-serif;
+ font-size: 2rem;
+ text-transform: uppercase;
+ letter-spacing: -2px;
+}
+#fim p{
+    padding: 50px;
+    font-family: 'Inter', sans-serif;
+    color: #a1a1aa;
+    font-size: 1.0rem;
+}
+#fim h3{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+#fim{
+    text-align: center;
+    padding: 100px 20px;
+}
+#fim span {
+    color: #8b5cf6;
+    }
+#navegador a{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;  
+    text-decoration: none; 
+}
+#navegador span{
+    color: white;
+}
+#navegador{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+#navegador img{
+    width: 30px;
+}
+}
+@media (min-width: 728px) and (max-width: 1024px) {
+    .midia{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 130px;
+}
+  
+}
